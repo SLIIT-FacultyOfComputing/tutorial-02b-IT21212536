@@ -42,3 +42,39 @@ int main()
   
    return 0;
 }
+
+#include<iostream>
+
+int maun()
+{
+  double salary,netsalary;
+  int etype,othrs,otrate;
+
+  std::cout<<" Enter employee type :"<<std::endl;
+  std::cin>>etype;
+  std::cout<<" Enter salary:"<<std::endl;
+  std::cin>>salary;
+  std::cout<<"Enter others:"<<std::endl;
+  std::cin>>others;
+  
+  switch(etype){
+    case 1 :
+        otrate=1000;
+        break;
+    case 2:
+        otrate=1500;
+        braek;
+    default :
+        otrate=1700;
+        break;
+  }
+netsalary=salary+othrs*otrate;
+
+std::cout<<" net salary is"<<netsalary<<std::endl;
+return 0;
+  
+
+    
+  }
+
+
